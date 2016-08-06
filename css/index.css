@@ -1,0 +1,754 @@
+@charset "UTF-8";
+h1, h2, h3, h4, h5, h6, dl, dt, dd, p, ul, li, body {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-style: normal;
+  font-size: 12px;
+  font-family: Arial,"微软雅黑"; }
+
+img {
+  border: none; }
+
+a {
+  text-decoration: none; }
+
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 29.62963px; } }
+
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 34.72222px; } }
+
+@media screen and (max-width: 414px) {
+  html {
+    font-size: 38.33333px; } }
+
+@media screen and (max-width: 384px) {
+  html {
+    font-size: 35.55556px; } }
+
+@media screen and (max-width: 360px) {
+  html {
+    font-size: 33.33333px; } }
+
+@media screen and (max-width: 412px) {
+  html {
+    font-size: 38.14815px; } }
+
+.header {
+  width: 100%;
+  height: 0.69rem;
+  background: #303135 url("../images/1_01.png") no-repeat center center;
+  background-size: 100%;
+  z-index: 1000;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0; }
+
+.sub-header {
+  background-color: #393a3f;
+  height: 1.43rem;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 0.42rem;
+  z-index: 1000;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0.69rem; }
+  .sub-header .sub-header-inner {
+    height: 100%; }
+    .sub-header .sub-header-inner .sub-header-inner-left {
+      line-height: 1.43rem;
+      height: 100%;
+      width: 50%;
+      font-size: 0.5rem;
+      float: left;
+      color: #fff; }
+    .sub-header .sub-header-inner .sub-header-inner-right {
+      height: 100%;
+      width: 50%;
+      float: left;
+      box-sizing: border-box;
+      padding: 0.45rem 0; }
+      .sub-header .sub-header-inner .sub-header-inner-right .sub-header-inner-right1 {
+        height: 0.5rem;
+        width: 0.5rem;
+        background: url("../images/1_03.jpg") no-repeat center center;
+        float: right;
+        background-size: 100%;
+        margin-right: 0.8rem; }
+      .sub-header .sub-header-inner .sub-header-inner-right .sub-header-inner-right2 {
+        height: 0.5rem;
+        width: 0.5rem;
+        background: url("../images/1_05.jpg") no-repeat center center;
+        background-size: 100%;
+        float: right; }
+
+.content {
+  background: #ebebeb;
+  width: 100%;
+  overflow-y: auto;
+  position: fixed;
+  top: 2.12rem;
+  bottom: 0;
+  z-index: 999; }
+  .content .gong-neng {
+    height: auto;
+    width: 100%;
+    background: #fff; }
+    .content .gong-neng li {
+      height: 1.55rem;
+      width: 85%;
+      border-bottom: 1px solid #d8d8d8;
+      margin-left: 0.42rem;
+      padding-right: 0.23rem;
+      box-sizing: border-box;
+      position: relative; }
+      .content .gong-neng li .gong-neng-tu {
+        width: 1.08rem;
+        height: 1.08rem;
+        float: left; }
+      .content .gong-neng li p {
+        height: 100%;
+        width: auto;
+        box-sizing: border-box;
+        padding: 0  1.5rem;
+        line-height: 1.55rem;
+        float: left;
+        color: #323232; }
+    .content .gong-neng #ziMu {
+      width: 100%;
+      height: 0.68rem;
+      background: #ebebeb;
+      line-height: 0.68rem;
+      font-size: 0.42rem;
+      box-sizing: border-box;
+      text-indent: 0.42rem;
+      border-bottom: 0; }
+    .content .gong-neng li:first-child .gong-neng-tu {
+      box-sizing: border-box;
+      width: 1.08rem;
+      height: 1.08rem;
+      background: url("../images/1_10.jpg") no-repeat left center;
+      background-size: 100%;
+      position: absolute;
+      top: 0.23rem; }
+    .content .gong-neng li:nth-of-type(2) .gong-neng-tu {
+      box-sizing: border-box;
+      width: 1.08rem;
+      height: 1.08rem;
+      background: url("../images/1_13.jpg") no-repeat left center;
+      background-size: 100%;
+      position: absolute;
+      top: 0.23rem; }
+    .content .gong-neng li:nth-of-type(3) .gong-neng-tu {
+      box-sizing: border-box;
+      width: 1.08rem;
+      height: 1.08rem;
+      background: url("../images/1_15.jpg") no-repeat left center;
+      background-size: 100%;
+      position: absolute;
+      top: 0.23rem; }
+    .content .gong-neng li:nth-of-type(4) .gong-neng-tu {
+      box-sizing: border-box;
+      width: 1.08rem;
+      height: 1.08rem;
+      background: url("../images/1_17.jpg") no-repeat left center;
+      background-size: 100%;
+      position: absolute;
+      top: 0.23rem; }
+    .content .gong-neng li:nth-of-type(6) .gong-neng-tu {
+      box-sizing: border-box;
+      width: 1.08rem;
+      height: 1.08rem;
+      background: url("../images/1_19.jpg") no-repeat left center;
+      background-size: 100%;
+      position: absolute;
+      top: 0.23rem; }
+    .content .gong-neng li:nth-of-type(7) .gong-neng-tu {
+      box-sizing: border-box;
+      width: 1.08rem;
+      height: 1.08rem;
+      background: url("../images/1_21.jpg") no-repeat left center;
+      background-size: 100%;
+      position: absolute;
+      top: 0.23rem; }
+    .content .gong-neng li:nth-of-type(8) .gong-neng-tu {
+      box-sizing: border-box;
+      width: 1.08rem;
+      height: 1.08rem;
+      background: url("../images/1_23.jpg") no-repeat left center;
+      background-size: 100%;
+      position: absolute;
+      top: 0.23rem; }
+    .content .gong-neng li:nth-of-type(10) .gong-neng-tu {
+      box-sizing: border-box;
+      width: 1.08rem;
+      height: 1.08rem;
+      background: url("../images/1_25.jpg") no-repeat left center;
+      background-size: 100%;
+      position: absolute;
+      top: 0.23rem; }
+    .content .gong-neng li:nth-of-type(11) .gong-neng-tu {
+      box-sizing: border-box;
+      width: 1.08rem;
+      height: 1.08rem;
+      background: url("../images/1_27.png") no-repeat left center;
+      background-size: 100%;
+      position: absolute;
+      top: 0.23rem; }
+    .content .gong-neng li:nth-of-type(13) .gong-neng-tu {
+      box-sizing: border-box;
+      width: 1.08rem;
+      height: 1.08rem;
+      background: url("../images/11.jpg") no-repeat left center;
+      background-size: 100%;
+      position: absolute;
+      top: 0.23rem; }
+    .content .gong-neng li:nth-of-type(14) .gong-neng-tu {
+      box-sizing: border-box;
+      width: 1.08rem;
+      height: 1.08rem;
+      background: url("../images/12.jpg") no-repeat left center;
+      background-size: 100%;
+      position: absolute;
+      top: 0.23rem; }
+    .content .gong-neng li:nth-of-type(15) .gong-neng-tu {
+      box-sizing: border-box;
+      width: 1.08rem;
+      height: 1.08rem;
+      background: url("../images/13.jpg") no-repeat left center;
+      background-size: 100%;
+      position: absolute;
+      top: 0.23rem; }
+    .content .gong-neng li:nth-of-type(16) .gong-neng-tu {
+      box-sizing: border-box;
+      width: 1.08rem;
+      height: 1.08rem;
+      background: url("../images/14.jpg") no-repeat left center;
+      background-size: 100%;
+      position: absolute;
+      top: 0.23rem; }
+    .content .gong-neng li:nth-of-type(17) .gong-neng-tu {
+      box-sizing: border-box;
+      width: 1.08rem;
+      height: 1.08rem;
+      background: url("../images/15.jpg") no-repeat left center;
+      background-size: 100%;
+      position: absolute;
+      top: 0.23rem; }
+    .content .gong-neng li:nth-of-type(18) .gong-neng-tu {
+      box-sizing: border-box;
+      width: 1.08rem;
+      height: 1.08rem;
+      background: url("../images/16.jpg") no-repeat left center;
+      background-size: 100%;
+      position: absolute;
+      top: 0.23rem; }
+    .content .gong-neng li:nth-of-type(20) .gong-neng-tu {
+      box-sizing: border-box;
+      width: 1.08rem;
+      height: 1.08rem;
+      background: url("../images/17.jpg") no-repeat left center;
+      background-size: 100%;
+      position: absolute;
+      top: 0.23rem; }
+    .content .gong-neng li:nth-of-type(21) .gong-neng-tu {
+      box-sizing: border-box;
+      width: 1.08rem;
+      height: 1.08rem;
+      background: url("../images/18.jpg") no-repeat left center;
+      background-size: 100%;
+      position: absolute;
+      top: 0.23rem; }
+    .content .gong-neng li:nth-of-type(22) .gong-neng-tu {
+      box-sizing: border-box;
+      width: 1.08rem;
+      height: 1.08rem;
+      background: url("../images/19.jpg") no-repeat left center;
+      background-size: 100%;
+      position: absolute;
+      top: 0.23rem; }
+
+.foot-nav {
+  width: 100%;
+  height: 1.62rem;
+  background: #fcfcfc;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000; }
+  .foot-nav ul li {
+    width: 25%;
+    height: 1.62rem;
+    float: left; }
+    .foot-nav ul li .nav-picture {
+      width: 1.25rem;
+      height: 0.77rem;
+      margin-top: 0.1rem;
+      margin-left: 0.4rem;
+      box-sizing: border-box; }
+    .foot-nav ul li p {
+      width: 1.25rem;
+      height: 0.25rem;
+      margin-top: 0.1rem;
+      margin-left: 0.4rem;
+      line-height: 0.25rem;
+      text-align: center;
+      color: #9a9a9a; }
+  .foot-nav ul li:nth-child(2) p {
+    color: #58c430; }
+  .foot-nav ul li:nth-child(1) .nav-picture {
+    background: url("../images/1_04.png") center center no-repeat;
+    background-size: 100%; }
+  .foot-nav ul li:nth-child(2) .nav-picture {
+    background: url("../images/1_09.png") center center no-repeat;
+    background-size: 100%; }
+  .foot-nav ul li:nth-child(3) .nav-picture {
+    background: url("../images/1_11.png") center center no-repeat;
+    background-size: 100%; }
+  .foot-nav ul li:nth-child(4) .nav-picture {
+    background: url("../images/1_13.png") center center no-repeat;
+    background-size: 100%; }
+
+.content-mianBaoXie {
+  background: #ebebeb;
+  width: 100%;
+  overflow-y: auto;
+  position: fixed;
+  top: 2.12rem;
+  bottom: 0;
+  z-index: 999; }
+  .content-mianBaoXie ul {
+    height: auto;
+    background: #fff;
+    width: 100%; }
+    .content-mianBaoXie ul li {
+      height: 1.92rem;
+      width: 100%;
+      border-bottom: 1px solid #d8d8d8;
+      padding-left: 0.43rem;
+      box-sizing: border-box; }
+      .content-mianBaoXie ul li .gong-neng-tu {
+        width: 1.57rem;
+        height: 1.57rem;
+        float: left;
+        margin-top: 0.175rem; }
+      .content-mianBaoXie ul li .des {
+        width: 6rem;
+        height: 1.57rem;
+        float: left;
+        margin-top: 0.175rem;
+        padding-left: 0.43rem;
+        box-sizing: border-box; }
+        .content-mianBaoXie ul li .des h4 {
+          line-height: 0.875rem; }
+          .content-mianBaoXie ul li .des h4 span {
+            display: block;
+            float: right;
+            font-weight: normal;
+            color: #bcbcbc; }
+        .content-mianBaoXie ul li .des p {
+          color: #bcbcbc; }
+    .content-mianBaoXie ul li:nth-child(1) .gong-neng-tu {
+      background: url("../images/2_03.jpg");
+      background-size: 100%; }
+    .content-mianBaoXie ul li:nth-child(2) .gong-neng-tu {
+      background: url("../images/2_11.jpg");
+      background-size: 100%; }
+    .content-mianBaoXie ul li:nth-child(3) .gong-neng-tu {
+      background: url("../images/2_16.jpg");
+      background-size: 100%; }
+    .content-mianBaoXie ul li:nth-child(4) .gong-neng-tu {
+      background: url("../images/2_20.jpg");
+      background-size: 100%; }
+    .content-mianBaoXie ul li:nth-child(5) .gong-neng-tu {
+      background: url("../images/2_24.jpg");
+      background-size: 100%; }
+    .content-mianBaoXie ul li:nth-child(6) .gong-neng-tu {
+      background: url("../images/2_28.jpg");
+      background-size: 100%; }
+    .content-mianBaoXie ul li:nth-child(7) .gong-neng-tu {
+      background: url("../images/2_30.jpg");
+      background-size: 100%; }
+    .content-mianBaoXie ul li:nth-child(8) .gong-neng-tu {
+      background: url("../images/129_03.jpg");
+      background-size: 100%; }
+    .content-mianBaoXie ul li:nth-child(9) .gong-neng-tu {
+      background: url("../images/129_06.jpg");
+      background-size: 100%; }
+    .content-mianBaoXie ul li:nth-child(10) .gong-neng-tu {
+      background: url("../images/129_08.jpg");
+      background-size: 100%; }
+    .content-mianBaoXie ul li:nth-child(11) .gong-neng-tu {
+      background: url("../images/129_10.jpg.jpg");
+      background-size: 100%; }
+    .content-mianBaoXie ul li:nth-child(12) .gong-neng-tu {
+      background: url("../images/129_14.jpg");
+      background-size: 100%; }
+  .content-mianBaoXie .menu {
+    width: 6rem;
+    height: 7.2rem;
+    background: #393a3f;
+    z-index: 1000;
+    position: fixed;
+    right: 0.35rem;
+    top: 2.12rem; }
+    .content-mianBaoXie .menu .menu-list {
+      width: 100%;
+      height: 19.5%;
+      float: left;
+      border-bottom: 1px solid black; }
+      .content-mianBaoXie .menu .menu-list .pic {
+        width: 0.8rem;
+        height: 0.8rem;
+        float: left;
+        margin-top: 0.25rem;
+        margin-left: 0.40rem; }
+      .content-mianBaoXie .menu .menu-list span {
+        width: 50%;
+        height: 0.8rem;
+        display: block;
+        float: left;
+        margin-top: 0.25rem;
+        margin-left: 0.20rem;
+        line-height: 0.8rem;
+        color: #fff; }
+    .content-mianBaoXie .menu .menu-list:nth-child(1) .pic {
+      background: url("../images/2_06.png") no-repeat center center;
+      background-size: 100%; }
+    .content-mianBaoXie .menu .menu-list:nth-child(2) .pic {
+      background: url("../images/2_10.png") no-repeat center center;
+      background-size: 100%; }
+    .content-mianBaoXie .menu .menu-list:nth-child(3) .pic {
+      background: url("../images/2_13.png") no-repeat center center;
+      background-size: 100%; }
+    .content-mianBaoXie .menu .menu-list:nth-child(4) .pic {
+      background: url("../images/2_17.png") no-repeat center center;
+      background-size: 100%; }
+    .content-mianBaoXie .menu .menu-list:nth-child(5) .pic {
+      background: url("../images/2_21.png") no-repeat center center;
+      background-size: 100%; }
+
+.foot-nav-mianBaoXie {
+  border-top: 2px solid #d7d7d7;
+  width: 100%;
+  height: 1.62rem;
+  background: #fcfcfc;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000; }
+  .foot-nav-mianBaoXie ul li {
+    width: 25%;
+    height: 1.62rem;
+    float: left; }
+    .foot-nav-mianBaoXie ul li .nav-picture {
+      width: 1.25rem;
+      height: 0.77rem;
+      margin-top: 0.1rem;
+      margin-left: 0.4rem;
+      box-sizing: border-box; }
+    .foot-nav-mianBaoXie ul li p {
+      width: 1.25rem;
+      height: 0.25rem;
+      margin-top: 0.1rem;
+      margin-left: 0.4rem;
+      line-height: 0.25rem;
+      text-align: center;
+      color: #9a9a9a; }
+  .foot-nav-mianBaoXie ul li:nth-child(1) p {
+    color: #58c430; }
+  .foot-nav-mianBaoXie ul li:nth-child(1) .nav-picture {
+    background: url("../images/2_33.jpg") center center no-repeat;
+    background-size: 100%; }
+  .foot-nav-mianBaoXie ul li:nth-child(2) .nav-picture {
+    background: url("../images/2_35.jpg") center center no-repeat;
+    background-size: 100%; }
+  .foot-nav-mianBaoXie ul li:nth-child(3) .nav-picture {
+    background: url("../images/1_11.png") center center no-repeat;
+    background-size: 100%; }
+  .foot-nav-mianBaoXie ul li:nth-child(4) .nav-picture {
+    background: url("../images/1_13.png") center center no-repeat;
+    background-size: 100%; }
+
+.content-me {
+  background: #ebebeb;
+  width: 100%;
+  overflow-y: auto;
+  position: fixed;
+  top: 2.12rem;
+  bottom: 0;
+  z-index: 999; }
+  .content-me .gong-neng-me {
+    height: auto;
+    width: 100%; }
+    .content-me .gong-neng-me li {
+      height: 1.4rem;
+      width: 100%;
+      background: #fff;
+      position: relative; }
+      .content-me .gong-neng-me li .inner {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        height: 100%;
+        width: 90%;
+        box-sizing: border-box;
+        float: left; }
+        .content-me .gong-neng-me li .inner .gong-neng-tu {
+          width: 0.79rem;
+          height: 0.72rem;
+          float: left;
+          margin-top: 0.3rem; }
+        .content-me .gong-neng-me li .inner p {
+          line-height: 1.4rem;
+          text-indent: 0.4rem;
+          float: left; }
+        .content-me .gong-neng-me li .inner .seKuai {
+          width: 1.27rem;
+          height: 0.6rem;
+          background: red;
+          float: left;
+          margin-left: 0.4rem;
+          margin-top: 0.4rem;
+          border-radius: 0.32rem;
+          line-height: 0.6rem;
+          text-align: center;
+          color: #fff; }
+    .content-me .gong-neng-me li:nth-child(2) .inner .gong-neng-tu {
+      background: url("../images/4_07.jpg") center center;
+      background-size: 100%; }
+    .content-me .gong-neng-me li:nth-child(3) .inner .gong-neng-tu {
+      background: url("../images/4_10.jpg") center center;
+      background-size: 100%; }
+    .content-me .gong-neng-me li:nth-child(4) .inner .gong-neng-tu {
+      background: url("../images/4_12.jpg") center center;
+      background-size: 100%; }
+    .content-me .gong-neng-me li:nth-child(5) .inner .gong-neng-tu {
+      background: url("../images/4_14.jpg") center center;
+      background-size: 100%; }
+    .content-me .gong-neng-me li:nth-child(6) .inner .gong-neng-tu {
+      background: url("../images/4_16.jpg") center center;
+      background-size: 100%; }
+    .content-me .gong-neng-me li:nth-child(7) .inner .gong-neng-tu {
+      background: url("../images/4_18.jpg") center center;
+      background-size: 100%; }
+    .content-me .gong-neng-me li:nth-child(2) .inner {
+      border-bottom: 1px solid #d8d8d8; }
+    .content-me .gong-neng-me li:nth-child(4) .inner {
+      border-bottom: 1px solid #d8d8d8; }
+    .content-me .gong-neng-me li:nth-child(1) {
+      margin: 0.6rem 0;
+      height: 2.4rem; }
+      .content-me .gong-neng-me li:nth-child(1) .inner .gong-neng-tu {
+        width: 1.92rem;
+        height: 1.92rem;
+        margin-top: 0.24rem;
+        background: url("../images/4_03.jpg") center center;
+        background-size: 100%;
+        float: left; }
+      .content-me .gong-neng-me li:nth-child(1) .inner .inner-right {
+        width: 6.5rem;
+        height: 1.92rem;
+        float: left;
+        margin-top: 0.24rem;
+        position: relative; }
+        .content-me .gong-neng-me li:nth-child(1) .inner .inner-right .name {
+          box-sizing: border-box;
+          padding-left: 0.4rem;
+          line-height: 1.1rem; }
+        .content-me .gong-neng-me li:nth-child(1) .inner .inner-right .number {
+          box-sizing: border-box;
+          padding-left: 0.4rem;
+          display: block; }
+        .content-me .gong-neng-me li:nth-child(1) .inner .inner-right i {
+          display: block;
+          width: 0.53rem;
+          height: 0.53rem;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          margin: auto;
+          right: 0;
+          background: url("../images/5_03.jpg") center center;
+          background-size: 100%; }
+    .content-me .gong-neng-me li:nth-child(3) {
+      margin-bottom: 0.6rem; }
+    .content-me .gong-neng-me li:nth-child(5) {
+      margin-bottom: 0.6rem; }
+    .content-me .gong-neng-me li:nth-child(6) {
+      margin: 0.6rem 0; }
+    .content-me .gong-neng-me li:nth-child(7) {
+      margin: 0.6rem 0; }
+
+.foot-nav-me {
+  border-top: 2px solid #d7d7d7;
+  width: 100%;
+  height: 1.62rem;
+  background: #fcfcfc;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000; }
+  .foot-nav-me ul li {
+    width: 25%;
+    height: 1.62rem;
+    float: left; }
+    .foot-nav-me ul li .nav-picture {
+      width: 1.25rem;
+      height: 0.77rem;
+      margin-top: 0.1rem;
+      margin-left: 0.4rem;
+      box-sizing: border-box; }
+    .foot-nav-me ul li p {
+      width: 1.25rem;
+      height: 0.25rem;
+      margin-top: 0.1rem;
+      margin-left: 0.4rem;
+      line-height: 0.25rem;
+      text-align: center;
+      color: #9a9a9a; }
+  .foot-nav-me ul li:nth-child(4) p {
+    color: #58c430; }
+  .foot-nav-me ul li:nth-child(1) .nav-picture {
+    background: url("../images/1_04.png") center center no-repeat;
+    background-size: 100%; }
+  .foot-nav-me ul li:nth-child(2) .nav-picture {
+    background: url("../images/2_35.jpg") center center no-repeat;
+    background-size: 100%; }
+  .foot-nav-me ul li:nth-child(3) .nav-picture {
+    background: url("../images/1_11.png") center center no-repeat;
+    background-size: 100%; }
+  .foot-nav-me ul li:nth-child(4) .nav-picture {
+    background: url("../images/1_09.jpg") center center no-repeat;
+    background-size: 100%; }
+
+.content-find {
+  background: #ebebeb;
+  width: 100%;
+  overflow-y: auto;
+  position: fixed;
+  top: 2.12rem;
+  bottom: 0;
+  z-index: 999; }
+  .content-find .gong-neng-me {
+    height: auto;
+    width: 100%; }
+    .content-find .gong-neng-me li {
+      height: 1.4rem;
+      width: 100%;
+      background: #fff;
+      position: relative; }
+      .content-find .gong-neng-me li .inner {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        height: 100%;
+        width: 90%;
+        box-sizing: border-box;
+        float: left; }
+        .content-find .gong-neng-me li .inner .gong-neng-tu {
+          width: 0.79rem;
+          height: 0.72rem;
+          float: left;
+          margin-top: 0.3rem; }
+        .content-find .gong-neng-me li .inner p {
+          line-height: 1.4rem;
+          text-indent: 0.4rem;
+          float: left; }
+        .content-find .gong-neng-me li .inner span {
+          display: block;
+          width: 0.97rem;
+          height: 0.97rem;
+          float: right;
+          background: url("../images/1_23.jpg") center center no-repeat;
+          background-size: 100%;
+          margin-top: 0.22rem; }
+    .content-find .gong-neng-me li:nth-child(1) .inner .gong-neng-tu {
+      background: url("../images/3_03.jpg") center center;
+      background-size: 100%; }
+    .content-find .gong-neng-me li:nth-child(2) .inner .gong-neng-tu {
+      background: url("../images/3_06.jpg") center center;
+      background-size: 100%; }
+    .content-find .gong-neng-me li:nth-child(3) .inner .gong-neng-tu {
+      background: url("../images/3_08.jpg") center center;
+      background-size: 100%; }
+    .content-find .gong-neng-me li:nth-child(4) .inner .gong-neng-tu {
+      background: url("../images/3_10.jpg") center center;
+      background-size: 100%; }
+    .content-find .gong-neng-me li:nth-child(5) .inner .gong-neng-tu {
+      background: url("../images/3_12.jpg") center center;
+      background-size: 100%; }
+    .content-find .gong-neng-me li:nth-child(6) .inner .gong-neng-tu {
+      background: url("../images/3_14.jpg") center center;
+      background-size: 100%; }
+    .content-find .gong-neng-me li:nth-child(7) .inner .gong-neng-tu {
+      background: url("../images/3_16.jpg") center center;
+      background-size: 100%; }
+    .content-find .gong-neng-me li:nth-child(2) .inner {
+      border-bottom: 1px solid #d8d8d8; }
+    .content-find .gong-neng-me li:nth-child(4) .inner {
+      border-bottom: 1px solid #d8d8d8; }
+    .content-find .gong-neng-me li:nth-child(1) {
+      margin: 0.6rem 0; }
+    .content-find .gong-neng-me li:nth-child(3) {
+      margin-bottom: 0.6rem; }
+    .content-find .gong-neng-me li:nth-child(5) {
+      margin-bottom: 0.6rem; }
+    .content-find .gong-neng-me li:nth-child(6) {
+      margin: 0.6rem 0; }
+    .content-find .gong-neng-me li:nth-child(7) {
+      margin: 0.6rem 0; }
+
+.foot-nav-find {
+  border-top: 2px solid #d7d7d7;
+  width: 100%;
+  height: 1.62rem;
+  background: #fcfcfc;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000; }
+  .foot-nav-find ul li {
+    width: 25%;
+    height: 1.62rem;
+    float: left; }
+    .foot-nav-find ul li .nav-picture {
+      width: 1.25rem;
+      height: 0.77rem;
+      margin-top: 0.1rem;
+      margin-left: 0.4rem;
+      box-sizing: border-box; }
+    .foot-nav-find ul li p {
+      width: 1.25rem;
+      height: 0.25rem;
+      margin-top: 0.1rem;
+      margin-left: 0.4rem;
+      line-height: 0.25rem;
+      text-align: center;
+      color: #9a9a9a; }
+  .foot-nav-find ul li:nth-child(3) p {
+    color: #58c430; }
+  .foot-nav-find ul li:nth-child(1) .nav-picture {
+    background: url("../images/1_04.png") center center no-repeat;
+    background-size: 100%; }
+  .foot-nav-find ul li:nth-child(2) .nav-picture {
+    background: url("../images/2_35.jpg") center center no-repeat;
+    background-size: 100%; }
+  .foot-nav-find ul li:nth-child(3) .nav-picture {
+    background: url("../images/3_19.jpg") center center no-repeat;
+    background-size: 100%; }
+  .foot-nav-find ul li:nth-child(4) .nav-picture {
+    background: url("../images/1_13.png") center center no-repeat;
+    background-size: 100%; }
