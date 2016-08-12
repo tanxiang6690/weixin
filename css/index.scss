@@ -16,23 +16,8 @@
 //height:shejitu/100;
 //微信通讯录开始
 @include userem(1080px);
-.header{
-   width: 100%;
-   height: 0.69rem;
-   background: #303135 url("../images/1_01.png") no-repeat center center;
-   background-size: 100%;
-   z-index: 1000;
-  position: fixed;
-  left: 0;
-  right:0;
-  top: 0;
-}
 .sub-header{
   background-color: #393a3f;
-  //background-color:red;
-  //background-image:url("../images/guodu.jpg");
-  //background-position: 0 -15px;
-  //background-repeat:no-repeat;
   height: 1.43rem;
   width: 100%;
   box-sizing: border-box;
@@ -41,7 +26,7 @@
   position: fixed;
   left: 0;
   right:0;
-  top: 0.69rem;
+  top: 0;
   .sub-header-inner{
     height: 100%;
     .sub-header-inner-left{
@@ -81,7 +66,7 @@
   width: 100%;
   overflow-y: auto;
   position:fixed;
-  top: 2.12rem;
+  top: 1.43rem;
   bottom: 0;
   z-index: 999;
   .gong-neng{
@@ -322,7 +307,7 @@
   width: 100%;
   overflow-y: auto;
   position:fixed;
-  top: 2.12rem;
+  top:1.43rem;
   bottom: 0;
   z-index: 999;
   ul{
@@ -516,7 +501,7 @@
   width: 100%;
   overflow-y: auto;
   position:fixed;
-  top: 2.12rem;
+  top: 1.43rem;
   bottom: 0;
   z-index: 999;
   .gong-neng-me{
@@ -696,7 +681,7 @@
   width: 100%;
   overflow-y: auto;
   position:fixed;
-  top: 2.12rem;
+  top: 1.43rem;
   bottom: 0;
   z-index: 999;
   .gong-neng-me{
